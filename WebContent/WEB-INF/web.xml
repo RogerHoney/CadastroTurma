@@ -11,15 +11,27 @@
   </welcome-file-list>
   
   <servlet>
-  <servlet-name>AdicionaContato</servlet-name>
+  <servlet-name>CadastroAluno</servlet-name>
   <servlet-class>
-  servlet.AdicionarContatoSer
+  servlet.CadastroAluno
   </servlet-class>
   </servlet>
   
   <servlet-mapping>
-  <servlet-name>AdicionaContato</servlet-name>
-  <url-pattern>/adicionaContato</url-pattern>
+  <servlet-name>CadastroAluno</servlet-name>
+  <url-pattern>/cadastroAluno</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>CadastroCurso</servlet-name>
+  <servlet-class>
+  servlet.CadastroCurso
+  </servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>CadastroCurso</servlet-name>
+  <url-pattern>/cadastroCurso</url-pattern>
   </servlet-mapping>
   
   <error-page>
